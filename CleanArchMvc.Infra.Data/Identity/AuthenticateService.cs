@@ -21,7 +21,7 @@ namespace CleanArchMvc.Infra.Data.Identity
             return result.Succeeded;
         }
 
-        public async Task<bool> RegisterUse(string email, string password)
+        public async Task<bool> RegisterUser(string email, string password)
         {
             var applicationUser = new ApplicationUser
             {
